@@ -1,0 +1,56 @@
+GET / HTTP/1.1
+Host: 192.168.56.104:8000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+
+HTTP/1.0 200 OK
+Server: SimpleHTTP/0.6 Python/3.10.12
+Date: Thu, 25 Jan 2024 11:01:11 GMT
+Content-type: text/html
+Content-Length: 1654
+Last-Modified: Tue, 23 Jan 2024 19:46:49 GMT
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        img {
+            display: block;
+            max-width: 700px;
+            height: auto;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Wireshark 101 - Packet Capture & Analysis</title>
+</head>
+<body>
+    <h1>Wireshark 101 - Packet Capture & Analysis</h1>
+    <p>This hands-on learning session introduces participants to the fundamentals of packet capturing and analysis using Wireshark, a leading network protocol analyzer. Aimed at beginners and intermediate users, the session will cover the basics of network protocols, packet capture techniques, and analysis strategies. Participants will learn how to use Wireshark effectively to diagnose network issues, monitor network traffic, and understand the intricacies of network communication. By the end of the session, attendees will gain practical skills in navigating Wireshark...s interface, applying filters, analyzing packet data, and interpreting results to enhance their network troubleshooting and security analysis capabilities.</p>
+
+    <!-- Placeholder Images -->
+    <img src="pic1.png" alt="Placeholder Image 1">
+    <img src="pic2.jpeg" alt="Placeholder Image 2">
+    <img src="pic3.png" alt="Placeholder Image 3">
+</body>
+</html>
