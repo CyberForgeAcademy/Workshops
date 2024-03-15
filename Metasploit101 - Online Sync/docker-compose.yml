@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  vsftpd-machine:
+    image: cyberforgeacademy/practice:vsftpdimg
+    container_name: ftp-container
+    ports:
+      - "21:21"
+      - "6200:6200"
+    networks:
+      default:
+        ipv4_address: 172.19.0.2
+
+  ssh-machine:
+    image: cyberforgeacademy/practice:sshimg
+    container_name: ssh-container
+    ports:
+      - "22:22"
+    networks:
+      default:
+        ipv4_address: 172.19.0.3
+
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 172.19.0.0/16
